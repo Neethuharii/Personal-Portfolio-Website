@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portifolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/98941706f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+        <nav>
+            <img src="images/neethulogo.png.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi,I'm<span>Neethu</span> <br> Hari from India</h1>
+        </div>
+       </div> 
+    </div>
+    <!--------about---------->
+    <div id="about">
+        <div class="container">
+           <div class="row">
+           <div class="about-col-1">
+            <img src="images/hai.png.jpg" alt="">
+           </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Im a junior at BMC purduing Btech in CSE.Im a enthusiastic an social person
+                     who love to take up new challlenges 
+                     and learn new skills</p>
+                     <div class="tab-title">
+                      
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                           
+
+                       
+
+                        </ul>
+
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014-2018</span><br>High School Education at Mount tabor</li>
+                            <li><span>2018-2020</span><br>Higher secondary education at GVHSS</li>
+                            
+                            <li><span>2020-2024</span><br>Btech from KTU</li>
+                       
+
+                        </ul>
+
+                     </div> 
+            </div>
+
+          
+           </div>
+        </div>
+    </div>
+
+    <!----------services--------->
+
+    <div id="services">
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p> lalalalalalakdfdjfhuyfhgfjuyhgdf
+        jkhuyrhjdfglkdsjhlhlfhdfjdfhu</p>
+        <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-regular fa-object-ungroup"></i>
+            <h2>UI/UX Design</h2>
+            
+            <p> lalalalalalakdfdjfhuyfhgfjuyhgdf
+        jkhuyrhjdfglkdsjhlhlfhdfjdfhu</p>
+        <a href="#">Learn more</a>
+        </div>
+
+
+    </div>
+</div>
+<!------------------blog------->
+<div id="blog">
+    <div class="cointainer">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work.png.jpg">
+                <div class="layer">
+                  
+                
+                <div class="layer">
+                    <h3>Website</h3>
+                    <p>This is my personal website
+                         and you can see my works through this.</p>
+                         <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/work1.png.jpeg">
+                <div class="layer">
+                    <h3>project</h3>
+                    <p>This is my first project
+                         </p>
+                         <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+</div>
+<!--------------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>neethuhari671@gmail.com</p>
+   
+            <div class="social-icons">
+                <a href="https://twitter.com/neethu_hari"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://instagram.com/neethuharii"><i class="fa-brands fa-instagram"></i></a>
+               
+                
+                <a href="https://linkedin.com/in/neethuhari"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/in/Neethuharii"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+
+                <input type="email" name="email" placeholder="Your email" required>
+                   
+                <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            
+            </form>
+          </div>
+
+        </div>
+    </div>
+
+
+</div>
+<div class="copyright">
+    <p>Copyright @ Neethu.Made with <i class="fa-solid fa-heart"></i>by Neethu Hari</p>
+</div>
+    </div>
+<script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+
+</script>
+</body>
+</html>
