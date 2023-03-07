@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is my personal portfolio website. It showcases my skills, projects, and experience.This is a simple portfolio website built using HTML, CSS, and JavaScript
+This is my personal portfolio website. It showcases my skills, projects, and experience.This is a simple portfolio website built using HTML, CSS, and JavaScript.The  portfolio website showcasing my projects, skills, and experience. The website is designed to highlight my professional achievements and provide potential employers or clients with a comprehensive view of my work. Browse through my portfolio and feel free to contact me for any inquiries or collaborations.
 
 ## Sections
 
